@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "version": "Shadow Eminence V2.1 Enhanced",
+  "implemented": [
+    "Replaced only the six-frame idle row with a coherent enhanced loop: subtle breathing, one blink, and gentle attached cape sway."
+  ],
+  "notImplemented": [
+    "Cursor, click, drag, and selection reactions: not exposed by the supported pet state contract.",
+    "Detached aura or floating shadow effects: omitted because they would risk readability and transparent-sprite extraction.",
+    "Additional special state: omitted because no safe extra state slot exists in the fixed 8x11 V2 layout."
+  ],
+  "technicalQA": {
+    "dimensions": "1536x2288",
+    "format": "PNG RGBA",
+    "layout": "8x11 V2, 192x208 cells",
+    "magentaResidues": 0,
+    "atlasValidation": "pass",
+    "standardRowReview": "pass",
+    "directions": "preserved from V2 validated atlas",
+    "petJson": "pass; separate Enhanced identifier"
+  },
+  "promotion": "recommended as an optional visual upgrade; V2 remains intact as the rollback-safe stable version."
+}
