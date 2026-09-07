@@ -1,0 +1,7 @@
+{
+  "id": "shadow-eminence-v2-1-enhanced",
+  "displayName": "Shadow Eminence V2.1 Enhanced",
+  "description": "Shadow Eminence with an enhanced living idle loop, built as a separate V2-compatible package.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.png"
+}
